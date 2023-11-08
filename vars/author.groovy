@@ -1,3 +1,7 @@
+def call () {
+    return "This Default function"
+}
+
 def name () {
     return "Judo Poseidon"
 }
