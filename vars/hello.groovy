@@ -3,5 +3,5 @@ def world () {
 }
 
 def person (Map person) {
-    echo("hello, ${person.firstName} & ${person.lastName}")
+    echo("hello, ${person.firstName} ${person.lastName}")
 }
