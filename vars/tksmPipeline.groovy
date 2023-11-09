@@ -6,8 +6,10 @@ def call (Map config) {
             agent any
             stages{
                 stage("Unsuported Pipeline") {
-                    script{
+                    steps{
+                      script{
                         echo("Unsuported Pipeline")
+                      }
                     }
                 }
             }
